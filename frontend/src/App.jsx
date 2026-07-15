@@ -4,7 +4,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { MessageCircle, Send, CheckCircle, AlertCircle, BarChart3, TrendingUp, BookOpen, Clock, User, AlertTriangle } from 'lucide-react';
 import './index.css';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://ai-placements-analyzer.onrender.com';
 
 function App() {
   const [profile, setProfile] = useState({
